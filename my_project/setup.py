@@ -1,7 +1,7 @@
-# Add an absolute path to your download folder
+# TO SETUP:Add an absolute path to your download folder
 DOWNLOAD_FOLDER_PATH = "/Users/ilaumnov/Downloads"
 
-# Define folders where do you want to move files
+# TO SETUP:Define folders where do you want to move files
 image_folder_path = DOWNLOAD_FOLDER_PATH + "/images"
 sheet_folder_path = DOWNLOAD_FOLDER_PATH + "/spreadsheets"
 text_folder_path = DOWNLOAD_FOLDER_PATH + "/texts"
@@ -15,10 +15,10 @@ styles_folder_path = DOWNLOAD_FOLDER_PATH + "/styles"
 archive_folder_path = DOWNLOAD_FOLDER_PATH + "/archives"
 presentation_folder_path = DOWNLOAD_FOLDER_PATH + "/presentations"
 
-# Define folder for files their's extension not in the map
+# TO SETUP:Define folder for files their's extension not in the map
 OTHER_FOLDER_PATH = DOWNLOAD_FOLDER_PATH + "/others"
 
-# Define which file move to which folder
+# TO SETUP:Define which file move to which folder
 EXTENSIONS_MAP = {
     # IMAGE extensions:START
     ".png": image_folder_path,
