@@ -24,7 +24,7 @@ for file in files:
     target_file = target_folder_path + "/" + file
     # TODO: handle better files with the same name -> add counter or prompt to add new name
     if os.path.exists(target_file):
-        file_name = file_name + "_" + random.randint(1, 100)
+        file_name = file_name + "_" + str(random.randint(1, 100))
         target_file = target_folder_path + "/" + file_name + file_extension
     
     source_file = DOWNLOAD_FOLDER_PATH + "/" + file
